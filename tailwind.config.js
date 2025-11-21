@@ -75,6 +75,10 @@ module.exports = {
           DEFAULT: '#334155',
           foreground: '#94a3b8',
         },
+        secondary: {
+          DEFAULT: '#1e293b',
+          foreground: '#f1f5f9',
+        },
         accent: {
           DEFAULT: '#3b82f6',
           foreground: '#ffffff',

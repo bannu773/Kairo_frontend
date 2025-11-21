@@ -139,7 +139,10 @@ function Dashboard() {
               >
                 <FiMenu size={24} />
               </button>
-              <div>
+              <div 
+                onClick={() => navigate('/')}
+                className="cursor-pointer hover:opacity-80 transition-opacity"
+              >
                 <h1 className="text-xl sm:text-2xl font-bold text-dark-text bg-gradient-to-r from-teal-400 via-green-400 to-purple-500 bg-clip-text text-transparent">
                   Kairo
                 </h1>
